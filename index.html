@@ -24,32 +24,7 @@
 
     <link href="css/templatemo-topic-listing.css" rel="stylesheet">
     <style>
-        /* .carousel-controls {
-            position: absolute;
-            top: 50%;
-            transform: translateY(-50%);
-            width: 100%;
-        }
-
-        .carousel-control-prev,
-        .carousel-control-next {
-            width: 5%;
-            opacity: 0.5;
-            background: rgba(255, 255, 255, 0.5);
-            border-radius: 5px;
-        }
-
-        .carousel-control-prev:hover,
-        .carousel-control-next:hover {
-            opacity: 1;
-        } */
-
-        .cards-wrapper {
-            display: flex;
-            justify-content: center;
-        }
-
-        .card img {
+        /* .card img {
             max-width: 100%;
             max-height: 100%;
         }
@@ -59,7 +34,7 @@
             box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
             border: none;
             border-radius: 0;
-        }
+        } */
 
         .carousel-inner {
             padding: 1em;
@@ -75,43 +50,13 @@
             transform: translateY(-50%);
         }
 
-        @media (min-width: 768px) {
-            .card img {
-                height: 11em;
-            }
+        .completedwarp {
+            flex-wrap: wrap;
         }
     </style>
 </head>
 
 <body id="top">
-
-
-    <script>
-        // let currentIndex = 0;
-
-        // function showSlide(index) {
-        //     const carouselInner = document.getElementById("carousel-inner");
-        //     const slides = document.getElementsByClassName("slide");
-        //     if (index >= slides.length) {
-        //         currentIndex = 0;
-        //     } else if (index < 0) {
-        //         currentIndex = slides.length - 1;
-        //     } else {
-        //         currentIndex = index;
-        //     }
-        //     const transformValue = -currentIndex * 100 + "%";
-        //     carouselInner.style.transform = "translateX(" + transformValue + ")";
-        // }
-
-        // function nextSlide() {
-        //     showSlide(currentIndex + 1);
-        // }
-
-        // function prevSlide() {
-        //     showSlide(currentIndex - 1);
-        // }
-    </script>
-
     <main>
 
         <nav class="navbar navbar-expand-lg">
@@ -121,9 +66,9 @@
                     <span>RAPID</span>
                 </a>
 
-                <div class="d-lg-none ms-auto me-4">
+                <!-- <div class="d-lg-none ms-auto me-4">
                     <a href="#top" class="navbar-icon bi-person smoothscroll"></a>
-                </div>
+                </div> -->
 
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -162,11 +107,11 @@
                 <div class="row">
 
                     <div class="col-lg-8 col-12 mx-auto">
-                        <h1 class="text-white text-center">RAPID</h1>
+                        <h3 class="text-white text-center">Research and Planning For Integrated Development</h3>
 
                         <h6 class="text-center">Research and Planning For Integrated Development</h6>
 
-                        <form method="get" class="custom-form mt-4 pt-2 mb-lg-0 mb-5" role="search">
+                        <!-- <form method="get" class="custom-form mt-4 pt-2 mb-lg-0 mb-5" role="search">
                             <div class="input-group input-group-lg">
                                 <span class="input-group-text bi-search" id="basic-addon1">
 
@@ -177,7 +122,7 @@
 
                                 <button type="submit" class="form-control">Search</button>
                             </div>
-                        </form>
+                        </form> -->
                     </div>
 
                 </div>
@@ -200,7 +145,6 @@
                                             development, renenwable energy.</p>
                                     </div>
 
-                                    <span class="badge bg-design rounded-pill ms-auto">14</span>
                                 </div>
 
                                 <img src="images/topics/undraw_Remote_design_team_re_urdx.png"
@@ -226,7 +170,6 @@
                                             More</a>
                                     </div>
 
-                                    <span class="badge bg-finance rounded-pill ms-auto">25</span>
                                 </div>
 
                                 <div class="social-share d-flex">
@@ -234,19 +177,20 @@
 
                                     <ul class="social-icon">
                                         <li class="social-icon-item">
-                                            <a href="#" class="social-icon-link bi-twitter"></a>
+                                            <a href="https://twitter.com/" class="social-icon-link bi-twitter"></a>
                                         </li>
 
                                         <li class="social-icon-item">
-                                            <a href="#" class="social-icon-link bi-facebook"></a>
+                                            <a href="https://www.facebook.com/"
+                                                class="social-icon-link bi-facebook"></a>
                                         </li>
 
                                         <li class="social-icon-item">
-                                            <a href="#" class="social-icon-link bi-pinterest"></a>
+                                            <a href="https://www.instagram.com/"
+                                                class="social-icon-link bi-instagram"></a>
                                         </li>
                                     </ul>
 
-                                    <a href="#" class="custom-icon bi-bookmark ms-auto"></a>
                                 </div>
 
                                 <div class="section-overlay"></div>
@@ -312,614 +256,461 @@
                         <div class="tab-content" id="myTabContent">
                             <div class="tab-pane fade show active" id="design-tab-pane" role="tabpanel"
                                 aria-labelledby="design-tab" tabindex="0">
-                                <!-- <div class="container"> -->
-                                    <!-- <div class="row">
-                                        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-                                            <div class="carousel-inner">
-                                                <div class="carousel-item active">
-                                                    <div class="cards-wrapper">
-                                                        <div class="card">
-                                                            <img src="..." class="card-img-top" alt="...">
-                                                            <div class="card-body">
-                                                                <h5 class="card-title">Card title</h5>
-                                                                <p class="card-text">Some quick example text to build on the card title and make up
-                                                                    the bulk of the card's content.</p>
-                                                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                                <div class="row">
+                                    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item active">
+                                                <div class="d-flex completedwarp">
+
+                                                    <div class="col-lg-4 col-md-6 col-12  card">
+                                                        <div class="custom-block bg-white ">
+
+                                                            <div class="d-flex">
+                                                                <div>
+                                                                    <h5 class="mb-2">Preparation of Tourism
+                                                                        Information Board and
+                                                                        Tourism Development Plan Of Bethanchowk
+                                                                        Narayansthan Temple
+                                                                        in Bethanchowk Municipality,Kavre
+                                                                    </h5>
+
+                                                                    <p class="mb-0">Plan made</p>
+                                                                </div>
+
                                                             </div>
-                                                        </div>
-                                                        <div class="card d-none d-md-block">
-                                                            <img src="..." class="card-img-top" alt="...">
-                                                            <div class="card-body">
-                                                                <h5 class="card-title">Card title</h5>
-                                                                <p class="card-text">Some quick example text to build on the card title and make up
-                                                                    the bulk of the card's content.</p>
-                                                                <a href="#" class="btn btn-primary">Go somewhere</a>
-                                                            </div>
-                                                        </div>
-                                                        <div class="card d-none d-md-block">
-                                                            <img src="..." class="card-img-top" alt="...">
-                                                            <div class="card-body">
-                                                                <h5 class="card-title">Card title</h5>
-                                                                <p class="card-text">Some quick example text to build on the card title and make up
-                                                                    the bulk of the card's content.</p>
-                                                                <a href="#" class="btn btn-primary">Go somewhere</a>
-                                                            </div>
+
+                                                            <img src="images/topics/colleagues-working-cozy-office-medium-shot.png"
+                                                                class="custom-block-image img-fluid" alt="">
+
                                                         </div>
                                                     </div>
-                                                </div>
-                                                <div class="carousel-item">
-                                                    <div class="cards-wrapper">
-                                                        <div class="card">
-                                                            <img src="..." class="card-img-top" alt="...">
-                                                            <div class="card-body">
-                                                                <h5 class="card-title">sdfgsdfgsfdg title</h5>
-                                                                <p class="card-text">Some quick exampledfgsdfgsdgssdfgsdfgsdgsedg text to build on the card title and make up
-                                                                    the bulk of the card's content.</p>
-                                                                <a href="#" class="btn btn-primary">Go somewhere</a>
+
+
+                                                    <div class="col-lg-4 col-md-6 col-12 card">
+                                                        <div class="custom-block bg-white ">
+
+                                                            <div class="d-flex">
+                                                                <div>
+                                                                    <h5 class="mb-2">Preparation of Risk Sensitive
+                                                                        Land Use
+                                                                        Plan(RSLUP), Dakshinkali Municipality
+                                                                    </h5>
+
+                                                                    <p class="mb-0">Plan made</p>
+                                                                </div>
+
                                                             </div>
-                                                        </div>
-                                                        <div class="card d-none d-md-block">
-                                                            <img src="..." class="card-img-top" alt="...">
-                                                            <div class="card-body">
-                                                                <h5 class="card-title">sdgsdg title</h5>
-                                                                <p class="card-text">Some quick example text to build on the card title and make up
-                                                                    the bulk of the card's content.</p>
-                                                                <a href="#" class="btn btn-primary">Go somewhere</a>
-                                                            </div>
-                                                        </div>
-                                                        <div class="card d-none d-md-block">
-                                                            <img src="..." class="card-img-top" alt="...">
-                                                            <div class="card-body">
-                                                                <h5 class="card-title">jkhhj title</h5>
-                                                                <p class="card-text">Some quick example text to build on the card title and make up
-                                                                    the bulk of the card's content.</p>
-                                                                <a href="#" class="btn btn-primary">Go somewhere</a>
-                                                            </div>
+
+                                                            <img src="images/topics/colleagues-working-cozy-office-medium-shot.png"
+                                                                class="custom-block-image img-fluid" alt="">
+
                                                         </div>
                                                     </div>
+
+
+                                                    <div class="col-lg-4 col-md-6 col-12 card">
+                                                        <div class="custom-block bg-white ">
+
+                                                            <div class="d-flex">
+                                                                <div>
+                                                                    <h5 class="mb-2">Preparation of Feasibilty study
+                                                                        and DPR of land
+                                                                        pooling Aakanshe phant for Eastern Kathmandu
+                                                                        New Township
+                                                                        Development Project,Kathmandu
+                                                                    </h5>
+
+                                                                    <p class="mb-0">Plan made</p>
+                                                                </div>
+
+                                                            </div>
+
+                                                            <img src="images/topics/colleagues-working-cozy-office-medium-shot.png"
+                                                                class="custom-block-image img-fluid" alt="">
+
+                                                        </div>
+
+                                                    </div>
                                                 </div>
-                                                <div class="carousel-item">
-                                                    <div class="cards-wrapper">
-                                                        <div class="card">
-                                                            <img src="..." class="card-img-top" alt="...">
-                                                            <div class="card-body">
-                                                                <h5 class="card-title">ertwrt title</h5>
-                                                                <p class="card-text">Some quick example text to build on the card title and make up
-                                                                    the bulk of the card's content.</p>
-                                                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                                            </div>
+                                            <div class="carousel-item">
+                                                <div class="d-flex completedwarp">
+                                                    <div class="col-lg-4 col-md-6 col-12 card">
+                                                        <div class="custom-block bg-white ">
+
+                                                            <div class="d-flex">
+                                                                <div>
+                                                                    <h5 class="mb-2">Preparation Of Disaster Risk
+                                                                        Reduction and
+                                                                        Management Plan (DRRMP), Dakshinkali
+                                                                        Municipality
+                                                                    </h5>
+
+                                                                    <p class="mb-0">Project Done</p>
+                                                                </div>
+
                                                             </div>
+
+                                                            <img src="images/topics/colleagues-working-cozy-office-medium-shot.png"
+                                                                class="custom-block-image img-fluid" alt="">
+
                                                         </div>
-                                                        <div class="card d-none d-md-block">
-                                                            <img src="..." class="card-img-top" alt="...">
-                                                            <div class="card-body">
-                                                                <h5 class="card-title">cvbxvbnvc fgbndfg title</h5>
-                                                                <p class="card-text">Some quick example text to build on the card title and make up
-                                                                    the bulk of the card's content.</p>
-                                                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                                                    </div>
+
+                                                    <div class="col-lg-4 col-md-6 col-12 card">
+                                                        <div class="custom-block bg-white ">
+
+                                                            <div class="d-flex">
+                                                                <div>
+                                                                    <h5 class="mb-2">Detail Design and DPR of Main
+                                                                        Roads along the
+                                                                        Bagmati Corridor in land pooling project
+                                                                    </h5>
+
+                                                                    <p class="mb-0">Plan made</p>
+                                                                </div>
+
                                                             </div>
+
+                                                            <img src="images/topics/colleagues-working-cozy-office-medium-shot.png"
+                                                                class="custom-block-image img-fluid" alt="">
+
                                                         </div>
-                                                        <div class="card d-none d-md-block">
-                                                            <img src="..." class="card-img-top" alt="...">
-                                                            <div class="card-body">
-                                                                <h5 class="card-title">Card fghsf</h5>
-                                                                <p class="card-text">Some quick example text to build on the card title and make up
-                                                                    the bulk of the card's content.</p>
-                                                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                                                    </div>
+
+                                                    <div class="col-lg-4 col-md-6 col-12 card">
+                                                        <div class="custom-block bg-white ">
+
+                                                            <div class="d-flex">
+                                                                <div>
+                                                                    <h5 class="mb-2">Preparation of Local Area
+                                                                        Action Plan of
+                                                                        Madhyabindu Municipality,Nawalparasi
+                                                                    </h5>
+
+                                                                    <p class="mb-0">Plan completed</p>
+                                                                </div>
+
                                                             </div>
+
+                                                            <img src="images/topics/colleagues-working-cozy-office-medium-shot.png"
+                                                                class="custom-block-image img-fluid" alt="">
+
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
+                                            <div class="carousel-item">
+                                                <div class="d-flex completedwarp">
+
+                                                    <div class="col-lg-4 col-md-6 col-12 card ">
+                                                        <div class="custom-block bg-white ">
+
+                                                            <div class="d-flex">
+                                                                <div>
+                                                                    <h5 class="mb-2">Feasibility Study of Potential
+                                                                        Parking Spaces
+                                                                        and Vertical Parking Towers in Lalitpur</h5>
+
+                                                                    <p class="mb-0">Identification and assesment of
+                                                                        shared parking
+                                                                        spaces.</p>
+                                                                </div>
+
+
+                                                            </div>
+
+                                                            <img src="images/topics/undraw_Remote_design_team_re_urdx.png"
+                                                                class="custom-block-image img-fluid" alt="">
+
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-4 col-md-6 col-12 card">
+                                                        <div class="custom-block bg-white ">
+
+                                                            <div class="d-flex">
+                                                                <div>
+                                                                    <h5 class="mb-2">Quantitative Risk Assesment and
+                                                                        Risk Reduction
+                                                                        Measures for Urban Road Safety,Kathmandu
+                                                                    </h5>
+
+                                                                    <p class="mb-0">Identification and assesment of
+                                                                        hazardous
+                                                                        section in terms of road safety</p>
+                                                                </div>
+
+
+                                                            </div>
+
+                                                            <img src="images/topics/undraw_Redesign_feedback_re_jvm0.png"
+                                                                class="custom-block-image img-fluid" alt="">
+
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="col-lg-4 col-md-6 col-12 card">
+                                                        <div class="custom-block bg-white ">
+
+                                                            <div class="d-flex">
+                                                                <div>
+                                                                    <h5 class="mb-2">Preparation of Integrated Urban
+                                                                        Development
+                                                                        Plan (IUDP) of Nepalgunj Sub-metropolitan
+                                                                        City and
+                                                                        feasibility study of changing Nepalgunj from
+                                                                        sub-metropolitan to metropolitan city, Banke
+                                                                    </h5>
+
+                                                                    <p class="mb-0">Plan made</p>
+                                                                </div>
+
+                                                            </div>
+
+                                                            <img src="images/topics/colleagues-working-cozy-office-medium-shot.png"
+                                                                class="custom-block-image img-fluid" alt="">
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
                                             <button class="carousel-control-prev" type="button"
-                                            data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                            <span class="visually-hidden">Previous</span>
-                                        </button>
-                                        <button class="carousel-control-next" type="button"
-                                            data-bs-target="#carouselExampleControls" data-bs-slide="next">
-                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                            <span class="visually-hidden">Next</span>
-                                        </button>
-                                            <!-- <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                                                data-bs-target="#carouselExampleControls" data-bs-slide="prev">
                                                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                                <span class="sr-only">Previous</span>
-                                            </a>
-                                            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                                                <span class="visually-hidden">Previous</span>
+                                            </button>
+                                            <button class="carousel-control-next" type="button"
+                                                data-bs-target="#carouselExampleControls" data-bs-slide="next">
                                                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                                <span class="sr-only">Next</span>
-                                            </a> 
-                                        </div>
-                                    </div> -->
-
-                                 <div class="row">
-                                        <div id="carouselExampleControls" class="carousel slide"
-                                            data-bs-ride="carousel">
-                                            <div class="carousel-inner">
-                                                <div class="carousel-item active">
-                                                    <div class="d-flex">
-
-                                                        <div class="col-lg-4 col-md-6 col-12  card">
-                                                            <div class="custom-block bg-white ">
-
-                                                                <div class="d-flex">
-                                                                    <div>
-                                                                        <h5 class="mb-2">Preparation of Tourism
-                                                                            Information Board and
-                                                                            Tourism Development Plan Of Bethanchowk
-                                                                            Narayansthan Temple
-                                                                            in Bethanchowk Municipality,Kavre
-                                                                        </h5>
-
-                                                                        <p class="mb-0">Plan made</p>
-                                                                    </div>
-
-                                                                    <span
-                                                                        class="badge bg-design rounded-pill ms-auto">3</span>
-                                                                </div>
-
-                                                                <img src="images/topics/colleagues-working-cozy-office-medium-shot.png"
-                                                                    class="custom-block-image img-fluid" alt="">
-
-                                                            </div>
-                                                        </div>
-
-
-                                                        <div class="col-lg-4 col-md-6 col-12 card">
-                                                            <div class="custom-block bg-white ">
-
-                                                                <div class="d-flex">
-                                                                    <div>
-                                                                        <h5 class="mb-2">Preparation of Risk Sensitive
-                                                                            Land Use
-                                                                            Plan(RSLUP), Dakshinkali Municipality
-                                                                        </h5>
-
-                                                                        <p class="mb-0">Plan made</p>
-                                                                    </div>
-
-                                                                    <span
-                                                                        class="badge bg-design rounded-pill ms-auto">3</span>
-                                                                </div>
-
-                                                                <img src="images/topics/colleagues-working-cozy-office-medium-shot.png"
-                                                                    class="custom-block-image img-fluid" alt="">
-
-                                                            </div>
-                                                        </div>
-
-
-                                                        <div class="col-lg-4 col-md-6 col-12 card">
-                                                            <div class="custom-block bg-white ">
-
-                                                                <div class="d-flex">
-                                                                    <div>
-                                                                        <h5 class="mb-2">Preparation of Feasibilty study
-                                                                            and DPR of land
-                                                                            pooling Aakanshe phant for Eastern Kathmandu
-                                                                            New Township
-                                                                            Development Project,Kathmandu
-                                                                        </h5>
-
-                                                                        <p class="mb-0">Plan made</p>
-                                                                    </div>
-
-                                                                    <span
-                                                                        class="badge bg-design rounded-pill ms-auto">3</span>
-                                                                </div>
-
-                                                                <img src="images/topics/colleagues-working-cozy-office-medium-shot.png"
-                                                                    class="custom-block-image img-fluid" alt="">
-
-                                                            </div>
-
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="carousel-item">
-                                                    <div class="d-flex">
-                                                        <div class="col-lg-4 col-md-6 col-12 card">
-                                                            <div class="custom-block bg-white ">
-
-                                                                <div class="d-flex">
-                                                                    <div>
-                                                                        <h5 class="mb-2">Preparation Of Disaster Risk
-                                                                            Reduction and
-                                                                            Management Plan (DRRMP), Dakshinkali
-                                                                            Municipality
-                                                                        </h5>
-
-                                                                        <p class="mb-0">Project Done</p>
-                                                                    </div>
-
-                                                                    <span
-                                                                        class="badge bg-design rounded-pill ms-auto">3</span>
-                                                                </div>
-
-                                                                <img src="images/topics/colleagues-working-cozy-office-medium-shot.png"
-                                                                    class="custom-block-image img-fluid" alt="">
-
-                                                            </div>
-                                                        </div>
-
-                                                        <div class="col-lg-4 col-md-6 col-12 card">
-                                                            <div class="custom-block bg-white ">
-
-                                                                <div class="d-flex">
-                                                                    <div>
-                                                                        <h5 class="mb-2">Detail Design and DPR of Main
-                                                                            Roads along the
-                                                                            Bagmati Corridor in land pooling project
-                                                                        </h5>
-
-                                                                        <p class="mb-0">Plan made</p>
-                                                                    </div>
-
-                                                                    <span
-                                                                        class="badge bg-design rounded-pill ms-auto">3</span>
-                                                                </div>
-
-                                                                <img src="images/topics/colleagues-working-cozy-office-medium-shot.png"
-                                                                    class="custom-block-image img-fluid" alt="">
-
-                                                            </div>
-                                                        </div>
-
-                                                        <div class="col-lg-4 col-md-6 col-12 card">
-                                                            <div class="custom-block bg-white ">
-
-                                                                <div class="d-flex">
-                                                                    <div>
-                                                                        <h5 class="mb-2">Preparation of Local Area
-                                                                            Action Plan of
-                                                                            Madhyabindu Municipality,Nawalparasi
-                                                                        </h5>
-
-                                                                        <p class="mb-0">Plan completed</p>
-                                                                    </div>
-
-                                                                    <span
-                                                                        class="badge bg-design rounded-pill ms-auto">3</span>
-                                                                </div>
-
-                                                                <img src="images/topics/colleagues-working-cozy-office-medium-shot.png"
-                                                                    class="custom-block-image img-fluid" alt="">
-
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="carousel-item">
-                                                    <div class="d-flex">
-
-                                                        <div class="col-lg-4 col-md-6 col-12 card ">
-                                                            <div class="custom-block bg-white ">
-
-                                                                <div class="d-flex">
-                                                                    <div>
-                                                                        <h5 class="mb-2">Feasibility Study of Potential
-                                                                            Parking Spaces
-                                                                            and Vertical Parking Towers in Lalitpur</h5>
-
-                                                                        <p class="mb-0">Identification and assesment of
-                                                                            shared parking
-                                                                            spaces.</p>
-                                                                    </div>
-
-                                                                    <span
-                                                                        class="badge bg-design rounded-pill ms-auto">1</span>
-                                                                </div>
-
-                                                                <img src="images/topics/undraw_Remote_design_team_re_urdx.png"
-                                                                    class="custom-block-image img-fluid" alt="">
-
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-lg-4 col-md-6 col-12 card">
-                                                            <div class="custom-block bg-white ">
-
-                                                                <div class="d-flex">
-                                                                    <div>
-                                                                        <h5 class="mb-2">Quantitative Risk Assesment and
-                                                                            Risk Reduction
-                                                                            Measures for Urban Road Safety,Kathmandu
-                                                                        </h5>
-
-                                                                        <p class="mb-0">Identification and assesment of
-                                                                            hazardous
-                                                                            section in terms of road safety</p>
-                                                                    </div>
-
-                                                                    <span
-                                                                        class="badge bg-design rounded-pill ms-auto">2</span>
-                                                                </div>
-
-                                                                <img src="images/topics/undraw_Redesign_feedback_re_jvm0.png"
-                                                                    class="custom-block-image img-fluid" alt="">
-
-                                                            </div>
-                                                        </div>
-
-                                                        <div class="col-lg-4 col-md-6 col-12 card">
-                                                            <div class="custom-block bg-white ">
-
-                                                                <div class="d-flex">
-                                                                    <div>
-                                                                        <h5 class="mb-2">Preparation of Integrated Urban
-                                                                            Development
-                                                                            Plan (IUDP) of Nepalgunj Sub-metropolitan
-                                                                            City and
-                                                                            feasibility study of changing Nepalgunj from
-                                                                            sub-metropolitan to metropolitan city, Banke
-                                                                        </h5>
-
-                                                                        <p class="mb-0">Plan made</p>
-                                                                    </div>
-
-                                                                    <span
-                                                                        class="badge bg-design rounded-pill ms-auto">3</span>
-                                                                </div>
-
-                                                                <img src="images/topics/colleagues-working-cozy-office-medium-shot.png"
-                                                                    class="custom-block-image img-fluid" alt="">
-
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-
-                                                <button class="carousel-control-prev" type="button"
-                                                    data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-                                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                                    <span class="visually-hidden">Previous</span>
-                                                </button>
-                                                <button class="carousel-control-next" type="button"
-                                                    data-bs-target="#carouselExampleControls" data-bs-slide="next">
-                                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                                    <span class="visually-hidden">Next</span>
-                                                </button>
-
-                                            </div>
+                                                <span class="visually-hidden">Next</span>
+                                            </button>
 
                                         </div>
-                                    </div> 
 
-
-
+                                    </div>
                                 </div>
+
+
+
                             </div>
+                        </div>
 
-                            <div class="col-12">
-                                <div class="tab-content" id="myTabContent">
+                        <div class="col-12">
+                            <div class="tab-content" id="myTabContent">
 
-                                    <div class="tab-pane fade" id="marketing-tab-pane" role="tabpanel"
-                                        aria-labelledby="marketing-tab" tabindex="0">
-                                        <div class="row">
-                                            <div class="col-lg-4 col-md-6 col-12 mb-4 mb-lg-3">
-                                                <div class="custom-block bg-white shadow-lg">
-                                                    <div class="d-flex">
-                                                        <div>
-                                                            <h5 class="mb-2">No Projects</h5>
+                                <div class="tab-pane fade" id="marketing-tab-pane" role="tabpanel"
+                                    aria-labelledby="marketing-tab" tabindex="0">
+                                    <div class="row">
+                                        <div class="col-lg-4 col-md-6 col-12 mb-4 mb-lg-3">
+                                            <div class="custom-block bg-white shadow-lg">
+                                                <div class="d-flex">
+                                                    <div>
+                                                        <h5 class="mb-2">No Projects</h5>
 
-                                                            <p class="mb-0">There are no Ongoing Projects</p>
-                                                        </div>
-
-                                                        <span
-                                                            class="badge bg-advertising rounded-pill ms-auto">30</span>
+                                                        <p class="mb-0">There are no Ongoing Projects</p>
                                                     </div>
 
-                                                    <img src="images/topics/undraw_online_ad_re_ol62.png"
-                                                        class="custom-block-image img-fluid" alt="">
                                                 </div>
+
+                                                <img src="images/topics/undraw_online_ad_re_ol62.png"
+                                                    class="custom-block-image img-fluid" alt="">
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-12">
-                                        <div class="tab-content" id="myTabContent">
-                                            <div class="tab-pane fade" id="finance-tab-pane" role="tabpanel"
-                                                aria-labelledby="finance-tab" tabindex="0">
-                                                <div class="row">
-                                                    <div class="col-lg-6 col-md-6 col-12 mb-4 mb-lg-0">
-                                                        <div class="custom-block bg-white shadow-lg">
-                                                            <a href="topics-detail.html">
-                                                                <div class="d-flex">
-                                                                    <div>
-                                                                        <h5 class="mb-2">Investment</h5>
+                                </div>
+                                <div class="col-12">
+                                    <div class="tab-content" id="myTabContent">
+                                        <div class="tab-pane fade" id="finance-tab-pane" role="tabpanel"
+                                            aria-labelledby="finance-tab" tabindex="0">
+                                            <div class="row">
+                                                <div class="col-lg-6 col-md-6 col-12 mb-4 mb-lg-0">
+                                                    <div class="custom-block bg-white shadow-lg">
+                                                        <a href="topics-detail.html">
+                                                            <div class="d-flex">
+                                                                <div>
+                                                                    <h5 class="mb-2">Investment</h5>
 
-                                                                        <p class="mb-0">Lorem Ipsum dolor sit amet
-                                                                            consectetur
-                                                                        </p>
-                                                                    </div>
-
-                                                                    <span
-                                                                        class="badge bg-finance rounded-pill ms-auto">30</span>
+                                                                    <p class="mb-0">Lorem Ipsum dolor sit amet
+                                                                        consectetur
+                                                                    </p>
                                                                 </div>
 
-                                                                <img src="images/topics/undraw_Finance_re_gnv2.png"
-                                                                    class="custom-block-image img-fluid" alt="">
-                                                            </a>
-                                                        </div>
-                                                    </div>
+                                                            </div>
 
-                                                    <div class="col-lg-6 col-md-6 col-12">
-                                                        <div class="custom-block custom-block-overlay">
-                                                            <div class="d-flex flex-column h-100">
-                                                                <!-- <img src="images/businesswoman-using-tablet-analysis-graph-company-finance-strategy-statistics-success-concept-planning-future-office-room.jpg"
+                                                            <img src="images/topics/undraw_Finance_re_gnv2.png"
+                                                                class="custom-block-image img-fluid" alt="">
+                                                        </a>
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-lg-6 col-md-6 col-12">
+                                                    <div class="custom-block custom-block-overlay">
+                                                        <div class="d-flex flex-column h-100">
+                                                            <!-- <img src="images/businesswoman-using-tablet-analysis-graph-company-finance-strategy-statistics-success-concept-planning-future-office-room.jpg"
                                             class="custom-block-image img-fluid" alt=""> -->
 
-                                                                <div class="custom-block-overlay-text d-flex">
-                                                                    <div>
-                                                                        <h5 class="text-white mb-2">Finance</h5>
+                                                            <div class="custom-block-overlay-text d-flex">
+                                                                <div>
+                                                                    <h5 class="text-white mb-2">Finance</h5>
 
-                                                                        <p class="text-white">Lorem ipsum dolor, sit
-                                                                            amet
-                                                                            consectetur
-                                                                            adipisicing elit. Sint animi necessitatibus
-                                                                            aperiam
-                                                                            repudiandae nam
-                                                                            omnis</p>
+                                                                    <p class="text-white">Lorem ipsum dolor, sit
+                                                                        amet
+                                                                        consectetur
+                                                                        adipisicing elit. Sint animi necessitatibus
+                                                                        aperiam
+                                                                        repudiandae nam
+                                                                        omnis</p>
 
-                                                                        <a class="btn custom-btn mt-2 mt-lg-3">Learn
-                                                                            More</a>
-                                                                    </div>
-
-                                                                    <span
-                                                                        class="badge bg-finance rounded-pill ms-auto">25</span>
+                                                                    <a class="btn custom-btn mt-2 mt-lg-3">Learn
+                                                                        More</a>
                                                                 </div>
 
-                                                                <div class="social-share d-flex">
-                                                                    <p class="text-white me-4">Share:</p>
-
-                                                                    <ul class="social-icon">
-                                                                        <li class="social-icon-item">
-                                                                            <a href="#"
-                                                                                class="social-icon-link bi-twitter"></a>
-                                                                        </li>
-
-                                                                        <li class="social-icon-item">
-                                                                            <a href="#"
-                                                                                class="social-icon-link bi-facebook"></a>
-                                                                        </li>
-
-                                                                        <li class="social-icon-item">
-                                                                            <a href="#"
-                                                                                class="social-icon-link bi-pinterest"></a>
-                                                                        </li>
-                                                                    </ul>
-
-                                                                    <a href="#"
-                                                                        class="custom-icon bi-bookmark ms-auto"></a>
-                                                                </div>
-
-                                                                <div class="section-overlay"></div>
+                                                                <span
+                                                                    class="badge bg-finance rounded-pill ms-auto">25</span>
                                                             </div>
+
+                                                            <div class="social-share d-flex">
+                                                                <p class="text-white me-4">Share:</p>
+
+                                                                <ul class="social-icon">
+                                                                    <li class="social-icon-item">
+                                                                        <a href="#"
+                                                                            class="social-icon-link bi-twitter"></a>
+                                                                    </li>
+
+                                                                    <li class="social-icon-item">
+                                                                        <a href="#"
+                                                                            class="social-icon-link bi-facebook"></a>
+                                                                    </li>
+
+                                                                    <li class="social-icon-item">
+                                                                        <a href="#"
+                                                                            class="social-icon-link bi-pinterest"></a>
+                                                                    </li>
+                                                                </ul>
+
+                                                            </div>
+
+                                                            <div class="section-overlay"></div>
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="col-12">
-                                                <div class="tab-content" id="myTabContent">
-                                                    <div class="tab-pane fade" id="music-tab-pane" role="tabpanel"
-                                                        aria-labelledby="music-tab" tabindex="0">
-                                                        <div class="row">
-                                                            <div class="col-lg-4 col-md-6 col-12 mb-4 mb-lg-3">
-                                                                <div class="custom-block bg-white shadow-lg">
+                                        </div>
+                                        <div class="col-12">
+                                            <div class="tab-content" id="myTabContent">
+                                                <div class="tab-pane fade" id="music-tab-pane" role="tabpanel"
+                                                    aria-labelledby="music-tab" tabindex="0">
+                                                    <div class="row">
+                                                        <div class="col-lg-4 col-md-6 col-12 mb-4 mb-lg-3">
+                                                            <div class="custom-block bg-white shadow-lg">
 
-                                                                    <div class="d-flex">
-                                                                        <div>
-                                                                            <h5 class="mb-2">Composing Song</h5>
+                                                                <div class="d-flex">
+                                                                    <div>
+                                                                        <h5 class="mb-2">Composing Song</h5>
 
-                                                                            <p class="mb-0">Lorem Ipsum dolor sit amet
-                                                                                consectetur</p>
-                                                                        </div>
-
-                                                                        <span
-                                                                            class="badge bg-music rounded-pill ms-auto">45</span>
+                                                                        <p class="mb-0">Lorem Ipsum dolor sit amet
+                                                                            consectetur</p>
                                                                     </div>
 
-                                                                    <img src="images/topics/undraw_Compose_music_re_wpiw.png"
-                                                                        class="custom-block-image img-fluid" alt="">
 
                                                                 </div>
+
+                                                                <img src="images/topics/undraw_Compose_music_re_wpiw.png"
+                                                                    class="custom-block-image img-fluid" alt="">
+
                                                             </div>
+                                                        </div>
 
-                                                            <div class="col-lg-4 col-md-6 col-12 mb-4 mb-lg-3">
-                                                                <div class="custom-block bg-white shadow-lg">
+                                                        <div class="col-lg-4 col-md-6 col-12 mb-4 mb-lg-3">
+                                                            <div class="custom-block bg-white shadow-lg">
 
-                                                                    <div class="d-flex">
-                                                                        <div>
-                                                                            <h5 class="mb-2">Online Music</h5>
+                                                                <div class="d-flex">
+                                                                    <div>
+                                                                        <h5 class="mb-2">Online Music</h5>
 
-                                                                            <p class="mb-0">Lorem Ipsum dolor sit amet
-                                                                                consectetur</p>
-                                                                        </div>
-
-                                                                        <span
-                                                                            class="badge bg-music rounded-pill ms-auto">45</span>
+                                                                        <p class="mb-0">Lorem Ipsum dolor sit amet
+                                                                            consectetur</p>
                                                                     </div>
 
-                                                                    <img src="images/topics/undraw_happy_music_g6wc.png"
-                                                                        class="custom-block-image img-fluid" alt="">
 
                                                                 </div>
+
+                                                                <img src="images/topics/undraw_happy_music_g6wc.png"
+                                                                    class="custom-block-image img-fluid" alt="">
+
                                                             </div>
+                                                        </div>
 
-                                                            <div class="col-lg-4 col-md-6 col-12">
-                                                                <div class="custom-block bg-white shadow-lg">
+                                                        <div class="col-lg-4 col-md-6 col-12">
+                                                            <div class="custom-block bg-white shadow-lg">
 
-                                                                    <div class="d-flex">
-                                                                        <div>
-                                                                            <h5 class="mb-2">Podcast</h5>
+                                                                <div class="d-flex">
+                                                                    <div>
+                                                                        <h5 class="mb-2">Podcast</h5>
 
-                                                                            <p class="mb-0">Lorem Ipsum dolor sit amet
-                                                                                consectetur</p>
-                                                                        </div>
-
-                                                                        <span
-                                                                            class="badge bg-music rounded-pill ms-auto">20</span>
+                                                                        <p class="mb-0">Lorem Ipsum dolor sit amet
+                                                                            consectetur</p>
                                                                     </div>
 
-                                                                    <img src="images/topics/undraw_Podcast_audience_re_4i5q.png"
-                                                                        class="custom-block-image img-fluid" alt="">
+                                                                </div>
 
+                                                                <img src="images/topics/undraw_Podcast_audience_re_4i5q.png"
+                                                                    class="custom-block-image img-fluid" alt="">
+
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-12">
+                                                    <div class="tab-content" id="myTabContent">
+                                                        <div class="tab-pane fade" id="education-tab-pane"
+                                                            role="tabpanel" aria-labelledby="education-tab"
+                                                            tabindex="0">
+                                                            <div class="row">
+                                                                <div class="col-lg-6 col-md-6 col-12 mb-4 mb-lg-3">
+                                                                    <div class="custom-block bg-white shadow-lg">
+
+                                                                        <div class="d-flex">
+                                                                            <div>
+                                                                                <h5 class="mb-2">Graduation</h5>
+
+                                                                                <p class="mb-0">Lorem Ipsum dolor
+                                                                                    sit
+                                                                                    amet
+                                                                                    consectetur</p>
+                                                                            </div>
+
+                                                                        </div>
+
+                                                                        <img src="images/topics/undraw_Graduation_re_gthn.png"
+                                                                            class="custom-block-image img-fluid" alt="">
+                                                                    </div>
+                                                                </div>
+
+                                                                <div class="col-lg-6 col-md-6 col-12">
+                                                                    <div class="custom-block bg-white shadow-lg">
+                                                                        <div class="d-flex">
+                                                                            <div>
+                                                                                <h5 class="mb-2">Educator</h5>
+
+                                                                                <p class="mb-0">Lorem Ipsum dolor
+                                                                                    sit
+                                                                                    amet
+                                                                                    consectetur</p>
+                                                                            </div>
+
+                                                                        </div>
+
+                                                                        <img src="images/topics/undraw_Educator_re_ju47.png"
+                                                                            class="custom-block-image img-fluid" alt="">
+                                                                    </div>
                                                                 </div>
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div class="col-12">
-                                                        <div class="tab-content" id="myTabContent">
-                                                            <div class="tab-pane fade" id="education-tab-pane"
-                                                                role="tabpanel" aria-labelledby="education-tab"
-                                                                tabindex="0">
-                                                                <div class="row">
-                                                                    <div class="col-lg-6 col-md-6 col-12 mb-4 mb-lg-3">
-                                                                        <div class="custom-block bg-white shadow-lg">
 
-                                                                            <div class="d-flex">
-                                                                                <div>
-                                                                                    <h5 class="mb-2">Graduation</h5>
-
-                                                                                    <p class="mb-0">Lorem Ipsum dolor
-                                                                                        sit
-                                                                                        amet
-                                                                                        consectetur</p>
-                                                                                </div>
-
-                                                                                <span
-                                                                                    class="badge bg-education rounded-pill ms-auto">80</span>
-                                                                            </div>
-
-                                                                            <img src="images/topics/undraw_Graduation_re_gthn.png"
-                                                                                class="custom-block-image img-fluid"
-                                                                                alt="">
-                                                                        </div>
-                                                                    </div>
-
-                                                                    <div class="col-lg-6 col-md-6 col-12">
-                                                                        <div class="custom-block bg-white shadow-lg">
-                                                                            <div class="d-flex">
-                                                                                <div>
-                                                                                    <h5 class="mb-2">Educator</h5>
-
-                                                                                    <p class="mb-0">Lorem Ipsum dolor
-                                                                                        sit
-                                                                                        amet
-                                                                                        consectetur</p>
-                                                                                </div>
-
-                                                                                <span
-                                                                                    class="badge bg-education rounded-pill ms-auto">75</span>
-                                                                            </div>
-
-                                                                            <img src="images/topics/undraw_Educator_re_ju47.png"
-                                                                                class="custom-block-image img-fluid"
-                                                                                alt="">
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-
-                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
@@ -929,6 +720,7 @@
                         </div>
                     </div>
                 </div>
+            </div>
 
         </section>
 
@@ -991,7 +783,6 @@
                                         <i class="bi-bookmark"></i>
                                     </div>
                                 </li>
-
                                 <li>
                                     <h4 class="text-white mb-3">Architecture Services</h4>
 
@@ -1002,6 +793,18 @@
                                         <i class="bi-book"></i>
                                     </div>
                                 </li>
+                                <li>
+                                    <h4 class="text-white mb-3"></h4>
+                                    <!-- 
+                                    <p class="text-white">Building Design, Planning , Landscaping , Interior Design,
+                                        Conservation</p> -->
+                                    <!-- 
+                                    <div class="icon-holder">
+                                        <i class="bi-book"></i>
+                                    </div> -->
+                                </li>
+
+
                             </ul>
                         </div>
                     </div>
@@ -1092,7 +895,7 @@
                 </div>
             </div>
         </section>
-        
+
 
 
         <section class="contact-section section-padding section-bg" id="section_5">
@@ -1105,9 +908,13 @@
 
                     <div class="col-lg-5 col-12 mb-4 mb-lg-0">
                         <iframe class="google-map"
-                            src="https://www.google.com/maps/place/Tarakeshwar/@27.7765729,85.2901938,13z/data=!3m1!4b1!4m6!3m5!1s0x39eb1f1660f01d15:0x6bc8f6a111170a6d!8m2!3d27.7867498!4d85.3032811!16s%2Fg%2F11b8tmrtpf?entry=ttu"
+                        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d56481.24680924916!2d85.2901938!3d27.776573!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb1f1660f01d15%3A0x6bc8f6a111170a6d!2sTarakeshwar!5e0!3m2!1sen!2snp!4v1705337614723!5m2!1sen!2snp"
                             width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy"
                             referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <!-- <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d56481.24680924916!2d85.2901938!3d27.776573!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb1f1660f01d15%3A0x6bc8f6a111170a6d!2sTarakeshwar!5e0!3m2!1sen!2snp!4v1705337614723!5m2!1sen!2snp"
+                            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe> -->
                     </div>
 
                     <div class="col-lg-3 col-md-6 col-12 mb-3 mb-lg- mb-md-0 ms-auto">
@@ -1205,9 +1012,9 @@
                         </a>
                     </p>
 
-                    <p class="text-white d-flex">
+                    <p class="text-white d-flex ">
                         <a href="mailto:rapidnepal21@gmail.com" class="site-footer-link">
-                            rapidnepal21@gmail.com
+                            Mail Us
                         </a>
                     </p>
                 </div>
@@ -1225,8 +1032,8 @@
                         </ul>
                     </div>
 
-                    <p class="copyright-text mt-lg-5 mt-4">Copyright © 2048 Topic Listing Center. All rights reserved.
-                        <br><br>Design: <a rel="nofollow" href="" target="_blank"><b>Anish Aadar</b></a>
+                    <p class="copyright-text mt-lg-5 mt-4">Copyright © Sattva. All rights reserved.
+                        <br><br>Design: <a rel="nofollow" href="" target="_blank"><b>Sattva</b></a>
                     </p>
 
                 </div>
