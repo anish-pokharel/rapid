@@ -24,72 +24,24 @@
 
     <link href="css/templatemo-topic-listing.css" rel="stylesheet">
     <style>
-        .carousel-inner {
-            display: flex;
-            flex-wrap: wrap;
-        }
-
-        /* .container {
-            max-width: 100%;
-            overflow: hidden;
-            position: relative;
-        }*/
-
-        /* .carousel-inner {
-            display: flex;
-            transition: transform 0.5s ease-in-out;
-        }
-
-        .slide {
-            min-width: 100%;
-            box-sizing: border-box;
-        }
-
-        .carousel-btn {
+        .carousel-controls {
             position: absolute;
             top: 50%;
             transform: translateY(-50%);
-            width: 40px;
-            height: 40px;
-            background-color: #000000;
-            border: none;
-            cursor: pointer;
-            outline: none;
-        }
-
-        #prev-btn {
-            left: 10px;
-        }
-
-        #next-btn {
-            right: 10px;
-        } */
-        .custom-block {
-            border: 1px solid #ddd;
-            /* Add a border to the custom blocks */
-            border-radius: 8px;
-            /* Add border-radius for rounded corners */
-            padding: 15px;
-            margin-bottom: 20px;
-        }
-
-        .custom-block h5 {
-            font-size: 1.2rem;
-            margin-bottom: 10px;
-        }
-
-        .custom-block p {
-            font-size: 1rem;
-        }
-
-        .carousel-inner {
-            display: flex;
-            flex-wrap: wrap;
-        }
-
-        .carousel-item {
             width: 100%;
-            /* Ensure each item takes 100% width initially */
+        }
+
+        .carousel-control-prev,
+        .carousel-control-next {
+            width: 5%;
+            opacity: 0.5;
+            background: rgba(255, 255, 255, 0.5);
+            border-radius: 5px;
+        }
+
+        .carousel-control-prev:hover,
+        .carousel-control-next:hover {
+            opacity: 1;
         }
     </style>
 </head>
@@ -560,17 +512,18 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                            </div>
-                                            <button class="carousel-control-prev" type="button"
-                                                data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-                                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                                <span class="visually-hidden">Previous</span>
-                                            </button>
-                                            <button class="carousel-control-next" type="button"
-                                                data-bs-target="#carouselExampleControls" data-bs-slide="next">
-                                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                                <span class="visually-hidden">Next</span>
-                                            </button>
+                                           
+                                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                                                    data-bs-slide="prev">
+                                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                    <span class="visually-hidden">Previous</span>
+                                                </button>
+                                                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                                                    data-bs-slide="next">
+                                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                    <span class="visually-hidden">Next</span>
+                                                </button>
+                                      
                                         </div>
 
                                     </div>
@@ -592,49 +545,15 @@
                                             <div class="custom-block bg-white shadow-lg">
                                                 <div class="d-flex">
                                                     <div>
-                                                        <h5 class="mb-2">Advertising</h5>
+                                                        <h5 class="mb-2">No Projects</h5>
 
-                                                        <p class="mb-0">Lorem Ipsum dolor sit amet consectetur</p>
+                                                        <p class="mb-0">There are no Ongoing Projects</p>
                                                     </div>
 
                                                     <span class="badge bg-advertising rounded-pill ms-auto">30</span>
                                                 </div>
 
                                                 <img src="images/topics/undraw_online_ad_re_ol62.png"
-                                                    class="custom-block-image img-fluid" alt="">
-                                            </div>
-                                        </div>
-
-                                        <div class="col-lg-4 col-md-6 col-12 mb-4 mb-lg-3">
-                                            <div class="custom-block bg-white shadow-lg">
-                                                <div class="d-flex">
-                                                    <div>
-                                                        <h5 class="mb-2">Video Content</h5>
-
-                                                        <p class="mb-0">Lorem Ipsum dolor sit amet consectetur</p>
-                                                    </div>
-
-                                                    <span class="badge bg-advertising rounded-pill ms-auto">65</span>
-                                                </div>
-
-                                                <img src="images/topics/undraw_Group_video_re_btu7.png"
-                                                    class="custom-block-image img-fluid" alt="">
-                                            </div>
-                                        </div>
-
-                                        <div class="col-lg-4 col-md-6 col-12">
-                                            <div class="custom-block bg-white shadow-lg">
-                                                <div class="d-flex">
-                                                    <div>
-                                                        <h5 class="mb-2">Viral Tweet</h5>
-
-                                                        <p class="mb-0">Lorem Ipsum dolor sit amet consectetur</p>
-                                                    </div>
-
-                                                    <span class="badge bg-advertising rounded-pill ms-auto">50</span>
-                                                </div>
-
-                                                <img src="images/topics/undraw_viral_tweet_gndb.png"
                                                     class="custom-block-image img-fluid" alt="">
                                             </div>
                                         </div>
@@ -872,6 +791,26 @@
                                 </div>
 
                                 <li>
+                                    <h4 class="text-white mb-3">Research</h4>
+
+                                    <p class="text-white">Data capture , Satellite image processing, Ortho-Photo
+                                        Processing and many more</p>
+
+                                    <div class="icon-holder">
+                                        <i class="bi-binoculars"></i>
+                                    </div>
+                                </li>
+                                <li>
+                                    <h4 class="text-white mb-3">Planning</h4>
+
+                                    <p class="text-white">Data capture , Satellite image processing, Ortho-Photo
+                                        Processing and many more</p>
+
+                                    <div class="icon-holder">
+                                        <i class="bi-list-check"></i>
+                                    </div>
+                                </li>
+                                <li>
                                     <h4 class="text-white mb-3">GIS</h4>
 
                                     <p class="text-white">Data capture , Satellite image processing, Ortho-Photo
@@ -907,12 +846,12 @@
                         </div>
                     </div>
 
-                    <div class="col-12 text-center mt-5">
+                    <!-- <div class="col-12 text-center mt-5">
                         <p class="text-white">
                             Want to learn more?
                             <a href="#" class="btn custom-btn custom-border-btn ms-3">Check out Youtube</a>
                         </p>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </section>
@@ -993,228 +932,7 @@
                 </div>
             </div>
         </section>
-        <section>
-            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <div class="d-flex">
-
-                            <div class="col-lg-4 col-md-6 col-12">
-                                <div class="custom-block bg-white shadow-lg">
-
-                                    <div class="d-flex">
-                                        <div>
-                                            <h5 class="mb-2">Preparation of Tourism Information Board and
-                                                Tourism Development Plan Of Bethanchowk Narayansthan Temple
-                                                in Bethanchowk Municipality,Kavre
-                                            </h5>
-
-                                            <p class="mb-0">Plan made</p>
-                                        </div>
-
-                                        <span class="badge bg-design rounded-pill ms-auto">3</span>
-                                    </div>
-
-                                    <img src="images/topics/colleagues-working-cozy-office-medium-shot.png"
-                                        class="custom-block-image img-fluid" alt="">
-
-                                </div>
-                            </div>
-
-
-                            <div class="col-lg-4 col-md-6 col-12">
-                                <div class="custom-block bg-white shadow-lg">
-
-                                    <div class="d-flex">
-                                        <div>
-                                            <h5 class="mb-2">Preparation of Risk Sensitive Land Use
-                                                Plan(RSLUP), Dakshinkali Municipality
-                                            </h5>
-
-                                            <p class="mb-0">Plan made</p>
-                                        </div>
-
-                                        <span class="badge bg-design rounded-pill ms-auto">3</span>
-                                    </div>
-
-                                    <img src="images/topics/colleagues-working-cozy-office-medium-shot.png"
-                                        class="custom-block-image img-fluid" alt="">
-
-                                </div>
-                            </div>
-
-
-                            <div class="col-lg-4 col-md-6 col-12">
-                                <div class="custom-block bg-white shadow-lg">
-
-                                    <div class="d-flex">
-                                        <div>
-                                            <h5 class="mb-2">Preparation of Feasibilty study and DPR of land
-                                                pooling Aakanshe phant for Eastern Kathmandu New Township
-                                                Development Project,Kathmandu
-                                            </h5>
-
-                                            <p class="mb-0">Plan made</p>
-                                        </div>
-
-                                        <span class="badge bg-design rounded-pill ms-auto">3</span>
-                                    </div>
-
-                                    <img src="images/topics/colleagues-working-cozy-office-medium-shot.png"
-                                        class="custom-block-image img-fluid" alt="">
-
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <div class="d-flex">
-                            <div class="col-lg-4 col-md-6 col-12 mb-4 mb-lg-0">
-                                <div class="custom-block bg-white shadow-lg">
-
-                                    <div class="d-flex">
-                                        <div>
-                                            <h5 class="mb-2">Preparation Of Disaster Risk Reduction and
-                                                Management Plan (DRRMP), Dakshinkali Municipality
-                                            </h5>
-
-                                            <p class="mb-0">Project Done</p>
-                                        </div>
-
-                                        <span class="badge bg-design rounded-pill ms-auto">3</span>
-                                    </div>
-
-                                    <img src="images/topics/colleagues-working-cozy-office-medium-shot.png"
-                                        class="custom-block-image img-fluid" alt="">
-
-                                </div>
-                            </div>
-
-                            <div class="col-lg-4 col-md-6 col-12">
-                                <div class="custom-block bg-white shadow-lg">
-
-                                    <div class="d-flex">
-                                        <div>
-                                            <h5 class="mb-2">Detail Design and DPR of Main Roads along the
-                                                Bagmati Corridor in land pooling project
-                                            </h5>
-
-                                            <p class="mb-0">Plan made</p>
-                                        </div>
-
-                                        <span class="badge bg-design rounded-pill ms-auto">3</span>
-                                    </div>
-
-                                    <img src="images/topics/colleagues-working-cozy-office-medium-shot.png"
-                                        class="custom-block-image img-fluid" alt="">
-
-                                </div>
-                            </div>
-
-                            <div class="col-lg-4 col-md-6 col-12">
-                                <div class="custom-block bg-white shadow-lg">
-
-                                    <div class="d-flex">
-                                        <div>
-                                            <h5 class="mb-2">Preparation of Local Area Action Plan of
-                                                Madhyabindu Municipality,Nawalparasi
-                                            </h5>
-
-                                            <p class="mb-0">Plan completed</p>
-                                        </div>
-
-                                        <span class="badge bg-design rounded-pill ms-auto">3</span>
-                                    </div>
-
-                                    <img src="images/topics/colleagues-working-cozy-office-medium-shot.png"
-                                        class="custom-block-image img-fluid" alt="">
-
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <div class="d-flex">
-
-                            <div class="col-lg-4 col-md-6 col-12 mb-4 mb-lg-0">
-                                <div class="custom-block bg-white shadow-lg">
-
-                                    <div class="d-flex">
-                                        <div>
-                                            <h5 class="mb-2">Feasibility Study of Potential Parking Spaces
-                                                and Vertical Parking Towers in Lalitpur</h5>
-
-                                            <p class="mb-0">Identification and assesment of shared parking
-                                                spaces.</p>
-                                        </div>
-
-                                        <span class="badge bg-design rounded-pill ms-auto">1</span>
-                                    </div>
-
-                                    <img src="images/topics/undraw_Remote_design_team_re_urdx.png"
-                                        class="custom-block-image img-fluid" alt="">
-
-                                </div>
-                            </div>
-                            <div class="col-lg-4 col-md-6 col-12 mb-4 mb-lg-0">
-                                <div class="custom-block bg-white shadow-lg">
-
-                                    <div class="d-flex">
-                                        <div>
-                                            <h5 class="mb-2">Quantitative Risk Assesment and Risk Reduction
-                                                Measures for Urban Road Safety,Kathmandu</h5>
-
-                                            <p class="mb-0">Identification and assesment of hazardous
-                                                section in terms of road safety</p>
-                                        </div>
-
-                                        <span class="badge bg-design rounded-pill ms-auto">2</span>
-                                    </div>
-
-                                    <img src="images/topics/undraw_Redesign_feedback_re_jvm0.png"
-                                        class="custom-block-image img-fluid" alt="">
-
-                                </div>
-                            </div>
-
-                            <div class="col-lg-4 col-md-6 col-12 mb-4 mb-lg-0">
-                                <div class="custom-block bg-white shadow-lg">
-
-                                    <div class="d-flex">
-                                        <div>
-                                            <h5 class="mb-2">Preparation of Integrated Urban Development
-                                                Plan (IUDP) of Nepalgunj Sub-metropolitan City and
-                                                feasibility study of changing Nepalgunj from
-                                                sub-metropolitan to metropolitan city, Banke
-                                            </h5>
-
-                                            <p class="mb-0">Plan made</p>
-                                        </div>
-
-                                        <span class="badge bg-design rounded-pill ms-auto">3</span>
-                                    </div>
-
-                                    <img src="images/topics/colleagues-working-cozy-office-medium-shot.png"
-                                        class="custom-block-image img-fluid" alt="">
-
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
-                    data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
-                    data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
-            </div>
-        </section>
+       
 
 
         <section class="contact-section section-padding section-bg" id="section_5">
